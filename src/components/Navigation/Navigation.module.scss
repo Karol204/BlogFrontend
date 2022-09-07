@@ -1,0 +1,54 @@
+// main color #f2f3f2 second color #12191b third #3c4041
+$mainColor: #6c5163;
+
+$mainText: #151a2a;
+
+$secondaryText: #493e51;
+
+$additionalColor: #ba837e;
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 70vw;
+  padding-bottom: 15px;
+  border-bottom: 2px solid black;
+  height: 60px;
+}
+
+.navItem {
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: $mainText;
+  display: inline-block;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+
+  &Link {
+    display: inline-block;
+    text-decoration: none;
+    width: 15vw;
+    margin-top: 20px;
+    text-align: center;
+    color: #12191b;
+
+    &Active {
+      display: inline-block;
+      font-weight: 700;
+      width: 15vw;
+      margin-top: 20px;
+
+      text-align: center;
+      // color: #fff;
+      text-decoration: none;
+    }
+  }
+  &Link:hover {
+    font-weight: 700;
+  }
+}

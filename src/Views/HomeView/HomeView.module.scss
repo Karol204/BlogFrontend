@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+$mainColor: #6c5163;
+
+$mainText: #151a2a;
+
+$secondaryText: #493e51;
+
+$additionalColor: #ba837e;
+.wrapper {
+  margin-top: 100px;
+}
+.baner {
+  background-image: url("../../assets/img/panorama.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 60vh;
+  position: relative;
+
+  &Motto {
+    text-align: center;
+    padding-top: 120px;
+    font-size: 46px;
+    color: $mainText;
+    font-family: "Montserrat", sans-serif;
+
+    &End {
+      text-align: center;
+      font-size: 36px;
+      color: $mainText;
+      font-family: "Montserrat", sans-serif;
+    }
+  }
+}
+
+.linksWrapper {
+  max-width: 1200px;
+  margin: 150px auto;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.categoryLink {
+  max-width: 271px;
+  max-height: 271px;
+  width: 271px;
+  height: 271px;
+  background-color: #ba837e;
+  align-content: center;
+  text-align: center;
+  line-height: 271px;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: $secondaryText;
+  padding: 10px;
+}
+
+.adsSection {
+  width: 100vw;
+  height: 20vh;
+  background-color: #493e51;
+  align-items: center;
+
+  &Paragraph {
+    text-align: center;
+    line-height: 20vh;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+  }
+}
+
+.postsWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  align-items: center;
+  margin: auto;
+}
